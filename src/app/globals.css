@@ -8,26 +8,26 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color:#01044a;
+  color: white;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.max{
+  max-width: 1200px;
+  margin: 25px auto;
+}
+p{
+  color: #8082c8;
+  font-size: 12px;
+}
+h1{
+  font-weight: bold;
+  color: white;
+}
+.share{
+  display: flex;
+  margin-top:50px;
+  gap: 50px;
 }
